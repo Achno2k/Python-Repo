@@ -27,7 +27,7 @@ def isGreater(a, b):
         print(b, "is greater")
     else:
         print("Both are equal")
-
+print(isGreater.__doc__)   #doc strings
 isGreater('Aman', 'Singh')
 
 

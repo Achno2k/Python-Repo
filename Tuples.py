@@ -41,9 +41,7 @@ Then perform operation on that list and convert it back to tuple.
 
 
 #performing tuple(list) comprehension 
-tuple2 = (1, 2, 3, 4)
-temp = list(i * 2 for i in tuple2)
-tuple2 = tuple(temp)
-print(tuple2)
-
-
+# tuple2 = (1, 2, 3, 4)
+# temp = list(i * 2 for i in tuple2)
+# tuple2 = tuple(temp)
+# print(tuple2)
