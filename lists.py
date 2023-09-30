@@ -105,4 +105,4 @@ print(sum)
 #UNPACKING A LIST
 lst = [1, 2, 3]
 x, y, z = lst
-print(x, y, z)
+print(x, y, z)    # x = 1, y = 2, z = 3 
