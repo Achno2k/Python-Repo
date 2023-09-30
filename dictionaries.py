@@ -77,23 +77,37 @@
 
 # print(car)
 
-car = { "brand": "Ford", "model": "Mustang", "year": 1964}
+# car = { "brand": "Ford", "model": "Mustang", "year": 1964}
 
-x = car.get("model")
-print(x)
+# x = car.get("model")
+# print(x)
 
-car = { "brand": "Ford", "model": "Mustang", "year": 1964}
-for x in car:
-  print(x)
-
-
-
-for x in car:
-  print(car[x])
+# car = { "brand": "Ford", "model": "Mustang", "year": 1964}
+# for x in car:
+#   print(x)
 
 
-for x in car.values():
-  print(x)
 
-for x, y in car.items():
-  print(x, y)
+# for x in car:
+#   print(car[x])
+
+
+# for x in car.values():
+#   print(x)
+
+# for x, y in car.items():
+#   print(x, y)
+
+
+#EMOJI CONVERTOR
+message = input(">")
+words = message.split(" ")
+emojis = {
+    ":)" : "😊",
+    ":(" : "😔"
+}
+output = ""
+for word in words:
+    output += emojis.get(word, word) + " "
+print(output)
+

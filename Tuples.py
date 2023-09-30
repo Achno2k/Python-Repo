@@ -45,3 +45,9 @@ Then perform operation on that list and convert it back to tuple.
 # temp = list(i * 2 for i in tuple2)
 # tuple2 = tuple(temp)
 # print(tuple2)
+
+
+# #Unpacking a tuple
+# tup = (1, 2, 3)
+# x, y, z = tup
+# print(x, y, z)

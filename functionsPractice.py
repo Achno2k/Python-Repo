@@ -14,17 +14,17 @@ findMax(2, 3, 4)
 #-----------------------------------------------------------------------------
 
 #function to multiply all the numbers in a list.
-def func(*numbers):
+def func1(*numbers):
     value = 1
     for x in numbers:
         value *= x
     return value
-print(func(1,2,3,4,5))
+print(func1(1,2,3,4,5))
 #-----------------------------------------------------------------------------
 
 
 #Python program to reverse a string.
-def func(str):
+def func2(str):
     newStr = ""
     index = len(str) - 1
     while index >= 0:
@@ -32,17 +32,17 @@ def func(str):
         index = index - 1
     return newStr
 
-print(func("Aman1234"))
+print(func2("Aman1234"))
 #-----------------------------------------------------------------------------
 
 #function to calculate the factorial of a number (a non-negative integer)
 # using recursion
-def fact(n):
+def factorial(n):
     if n > 0:
         return n * fact(n-1)      
     else: 
         return 1
-print(fact(5))
+print(factorial(5))
 
 
 #using for loop
@@ -55,7 +55,7 @@ print(fact(5))
 #-----------------------------------------------------------------------------
 
 #function that accepts a string and counts the number of upper and lower case letters
-def func(str):
+def func3(str):
     upperCount = 0
     lowerCount = 0
     for x in str:
@@ -66,7 +66,7 @@ def func(str):
     print(f"No. of Uppercase letters are: {upperCount}")
     print(f"No. of Lowerrcase letters are: {lowerCount}")
 
-func("Aman Singh")
+func3("Aman Singh")
 #-----------------------------------------------------------------------------
 
 # function that takes a list and returns a new list with distinct elements from the first list.

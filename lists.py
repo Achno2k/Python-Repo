@@ -82,3 +82,27 @@ i = 0
 while i < len(thislist):
   print(thislist[i])
   i = i + 1
+
+
+#2-D Lists
+matrix = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+
+print(matrix[0][1])   #should print 2
+for row in matrix:
+  for item in row:
+    print(item)
+
+sum = 0
+for row in matrix:
+  for item in row:
+    sum += item
+print(sum)
+
+#UNPACKING A LIST
+lst = [1, 2, 3]
+x, y, z = lst
+print(x, y, z)
