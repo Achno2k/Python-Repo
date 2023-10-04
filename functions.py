@@ -14,6 +14,7 @@ def isGreater(a, b):
     else:
         print("Both are equal")
 
+print(isGreater.__doc__)
 isGreater(3, 4)
 isGreater(4, 3)
 isGreater(4, 4)

@@ -97,3 +97,12 @@ from math import * #importing math module or file to use various mathemeatical f
 # txt = f"Hi my name is {name} and I am from {country}"
 # print(txt)
 
+
+#Escape Sequence 
+# Why? What if you need a new line or some tab space or some word with quotes
+# str1 = "It's a \"good\" day"   #here this backslash tells pyhton that whatever comes after this is a string
+# print(str1)
+
+# str2 = "My name is \t Aman" 
+# print(str2)
+
