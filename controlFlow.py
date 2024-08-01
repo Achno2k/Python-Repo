@@ -11,13 +11,13 @@
 
 # #------------------------------
 
-# is_hot = False
-# if is_hot == True:
-#     print("It's a hot day!")
-# elif(is_hot == False):
-#      print("It's a cold day!")
-# else:
-#     print("It's a lovely day")   
+is_hot = False
+if is_hot == True:
+    print("It's a hot day!")
+elif(is_hot == False):
+     print("It's a cold day!")
+else:
+    print("It's a lovely day")   
 
 # """
 # LOGICAL OPERATORS
@@ -43,12 +43,12 @@
 # else:
 #     print("Not eligible for loan")
 
-# #NOT
-# bool_val = True
-# if not bool_val:
-#     print("The statement is true")
-# else:
-#     print("Nope!")
+#NOT
+bool_val = True
+if not bool_val:
+    print("The statement is true")
+else:
+    print("Nope!")
 
 # """
 # COMPARISION OPERATORS

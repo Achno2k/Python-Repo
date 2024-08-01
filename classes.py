@@ -11,7 +11,7 @@ class PlayerCharacter:
     def adding_nums(cls, num1, num2):
         return cls(num1 + num2)
 
-player1 = PlayerCharacter("Aman", 19)
+player1 = PlayerCharacter()
 print(player1.name)
 print(player1.adding_nums(2, 3))
 player1.run()

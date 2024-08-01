@@ -6,14 +6,14 @@
 # print(dict)
 
 # dict2 ={
-#     345: "Aman",
+#     349: "Aman",
 #     456: "Isha",
 #     789: "Vaibhav"
 # }
-# # print(dict2[456])
+# print(dict2[456])
 
 # # print(dict2[345])      #use this if you want to throw an error in your program if the key does not exist
-# # print(dict2.get(345))  #use this if you don't want to throw an error in your program if the key does not exist
+# print(dict2.get(345))  #use this if you don't want to throw an error in your program if the key does not exist
 
 
 # print(dict2.keys())  #this will print all the keys
@@ -65,17 +65,17 @@
 # print(ep1)
 
 
-# car = {
-#   "brand": "Ford",
-#   "model": "Mustang",
-#   "year": 1964,
-# }
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964,
+}
 
-# x = car.setdefault("engine", "V8")
+car.setdefault("engine", "V8")
 
 # print(x)
 
-# print(car)
+print(car)
 
 # car = { "brand": "Ford", "model": "Mustang", "year": 1964}
 
@@ -88,26 +88,29 @@
 
 
 
-# for x in car:
-#   print(car[x])
+for x in car:
+  print(car[x])
 
+print('\n')
 
-# for x in car.values():
-#   print(x)
+for x in car.values():
+  print(x)
 
-# for x, y in car.items():
-#   print(x, y)
+print('\n')
+
+for x, y in car.items():
+  print(x + ": ", y)
 
 
 #EMOJI CONVERTOR
-message = input(">")
-words = message.split(" ")
-emojis = {
-    ":)" : "😊",
-    ":(" : "😔"
-}
-output = ""
-for word in words:
-    output += emojis.get(word, word) + " "
-print(output)
+# message = input(">")
+# words = message.split(" ")
+# emojis = {
+#     ":)" : "😊",
+#     ":(" : "😔"
+# }
+# output = ""
+# for word in words:
+#     output += emojis.get(word, word) + " "
+# print(output)
 
